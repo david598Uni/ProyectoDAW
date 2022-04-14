@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../node_modules/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="../CSS_General/menuLateral.css">
+    <link rel="stylesheet" href="../CSS_General/mail.css">
+    <link rel="stylesheet" href="../CSS_General/main.css">
+    <link rel="stylesheet" href="../CSS_Alumnos/carrouselAsignaturas.css">
+    <link rel="stylesheet" href="../CSS_Alumnos/asignatura.css">
+    <title>Inicio</title>
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="overlay"></div>
+
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <div class="sidebar-header">
+                    <div class="sidebar-brand">
+                        <a href="#">Menu</a>
+                    </div>
+                </div>
+                <li><a href="#login" class="dropdown-toggle" data-toggle="dropdown" id="usuario">Usuario</a>
+                    <ul class="dropdown-menu animated fadeInLeft" role="menu">
+
+                       
+
+                    </ul>
+                </li>
+                <li><a id="home">Home</a></li>
+
+                <li class="dropdown">
+                    <a href="#works" class="dropdown-toggle" data-toggle="dropdown" id="desplegable">Tareas</a>
+                    <ul class="dropdown-menu animated fadeInLeft" role="menu">
+
+                    </ul>
+                </li>
+
+                <li id="mensajeria"></li>
+
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+                <span class="hamb-bottom"></span>
+            </button>
+            <div class="container-fluiz">
+                <div class="row justify-content-around">
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-header text-center bg-matematicas">
+                            <h3>Operaciones sencillas de repaso 2</h3>
+                            <h4>0/3</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="card mb-2 shadow-sm p-2 rounded text-center">
+                                <div class="card-body row">
+                                    <div class="col-6 align-self-center">
+                                        <h5>Resuelve el siguiente sistema de ecuaciones:</h5>
+                                        <p><b> 2a + b - 3c = 7<br>
+                                            5a - 4b + c = -19<br>
+                                            a - b - 4c = 4<br></b></p>
+                                           
+                                        
+                                    </div>
+                                    <div class="col-3 align-self-center">
+                                      <input type="number">
+                                    </div>
+                                    <div class="col-3 align-self-center">
+                                      <button class="btn btn-info">Corregir</button>
+                                     </div>
+                                </div>
+                            </div>
+                            <div class="card mb-2 shadow-sm p-2 rounded text-center">
+                                <div class="card-body row">
+                                    <div class="col-6 align-self-center">
+                                        <h5>Resuelve la siguiente ecuacion:</h5>
+                                        <p><b>x + 5 = 12<br></b></p>
+                                           
+                                        
+                                    </div>
+                                    <div class="col-3 align-self-center">
+                                      <input type="number">
+                                    </div>
+                                    <div class="col-3 align-self-center">
+                                      <button class="btn btn-info">Corregir</button>
+                                     </div>
+                                </div>
+                            </div>
+                            <div class="card mb-2 shadow-sm p-2 rounded text-center">
+                                <div class="card-body row">
+                                    <div class="col-6 align-self-center">
+                                        <h5>Pregunta:</h5>
+                                        <p><b>¿Que probabilidad hay de nacer en un mes de 29 dias?</b></p>
+                                           
+                                        
+                                    </div>
+                                    <div class="col-3 align-self-center">
+                                      <input type="number">
+                                    </div>
+                                    <div class="col-3 align-self-center">
+                                    
+                                     </div>
+                                </div>
+                            </div>
+                           
+                           
+                        </div>
+                        <div class="card-footer">
+                            <div class=" row justify-content-center">
+                                <div class="col-4">
+                                    <a class="btn btn-block btn-lg btn-success">Finalizar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                </div>
+
+               
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+    </div>
+
+
+</body>
+<!-- JS -->
+<!-- jquery 3.5.1 -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<!-- bootstrap 4.6.1 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+
+<script src="../JS/menuLateral.js"></script>
+<script src="../JS/carrousel.js"></script>
+
+</html>

@@ -1,0 +1,37 @@
+body {
+    position: relative;
+    overflow-x: hidden;
+    background-color: #ECECEC;
+}
+body,
+html { height: 100%;}
+.nav .open > a, 
+.nav .open > a:hover, 
+.nav .open > a:focus {background-color: transparent;}
+
+.bg-matematicas{
+  background-color: #4083d4;
+}
+.bg-lengua{
+  background-color: #d44040;
+}
+.bg-gallego{
+    background-color: #d47b40;
+  }
+.bg-tecnologia{
+  background-color: #d4c540;
+}
+.bg-biologia{
+  background-color: #45d440;
+}
+.bg-quimica{
+  background-color: #40d460;
+}
+.bg-historia{
+  background-color: #d440af;
+}
+.bg-arte{
+    background-color: #405bd4;
+  }
+  
+  

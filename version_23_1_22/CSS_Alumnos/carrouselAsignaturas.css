@@ -1,0 +1,12 @@
+.carousel-indicators li{
+    background-color: #385170;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+.carousel-indicators .acti{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
